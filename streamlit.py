@@ -2,12 +2,13 @@ import utils
 
 import os
 import openai
-openai.api_key = utils.get_openai_api_key()
+# openai.api_key = utils.get_openai_api_key()
+openai.api_key = st.secrets.OPENAI_API_KEY
 
 from llama_index import SimpleDirectoryReader
 
 documents = SimpleDirectoryReader(
-    input_files=["./eBook-How-to-Build-a-Career-in-AI.pdf"]
+    input_files=["./SIGMAN_Camouflage_SOP.pdf"]
 ).load_data()
 
 from llama_index import Document
