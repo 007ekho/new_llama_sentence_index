@@ -1,3 +1,4 @@
+trulens_eval
 openai
 pandas
 llama-index
