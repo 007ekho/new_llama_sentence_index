@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv, find_dotenv
+from python-dotenv import load_dotenv, find_dotenv
 
 import numpy as np
 
