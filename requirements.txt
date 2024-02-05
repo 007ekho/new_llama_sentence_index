@@ -1,2 +1,8 @@
-python-dotenv
-dotenv
+openai
+pandas
+llama-index
+streamlit
+transformers
+torch
+pypdf
+sentence-transformers
