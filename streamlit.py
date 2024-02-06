@@ -27,7 +27,7 @@ def build_sentence_window_index(
     documents,
     llm,
     embed_model="local:BAAI/bge-small-en-v1.5",
-    sentence_window_size=3,
+    sentence_window_size=40,
     save_dir="sentence_index",
 ):
     # create the sentence window node parser w/ default settings
